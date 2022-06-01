@@ -1,15 +1,17 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import InputExample from "./components/InputExample";
 import "./index.css";
 // import App from './App';
 import reportWebVitals from "./reportWebVitals";
-import Counter from "./components/Counter";
+// import Counter from "./components/Counter";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
-    <Counter />
+    {/* <Counter /> */}
+    <InputExample />
   </React.StrictMode>
 );
 
